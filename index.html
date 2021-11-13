@@ -10,53 +10,23 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </head>
 
   <body>
-    <!--
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https://ccsyt.github.io">
-          <img src="favicon.png" width="28" height="28" />
-        </a>
-    </div>
-      <div onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
-        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>    
-
-
-      <div id="navMenu" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item"> Home</a>
-          <a href="about.html" class="navbar-item">About</a>
-
-        <div class="navbar-end"></div>
-      </div>
-    </nav>
-  -->
     <br />
     <br />
     <h1 class="title is-1 has-text-centered">Crazy Cats</h1>
     <br />
     <br />
-    <div style="text-align: center;">
-      <iframe
-        class="video-container"
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/wedr5Ab0Xbk"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <br />
-    <br />
-    <link href="index.js" />
+    <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
+    <img src="media/photos/tiger-in-cat-tree.jpeg" alt="Tiger on Cat Tree" />
+    <img src="media/photos/cats-on-cat-tree" alt="Lucky and Tiger on Cat Tree" />
+  </div>
   </body>
 </html>
