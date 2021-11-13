@@ -18,13 +18,15 @@
         <a class="navbar-item" href="https://ccsyt.github.io">
           <img src="favicon.png" width="28" height="28" />
         </a>
+    </div>
+      <div onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>    
 
-        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-      </div>
 
       <div id="navMenu" class="navbar-menu">
         <div class="navbar-start">
