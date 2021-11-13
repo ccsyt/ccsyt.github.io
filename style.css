@@ -4,6 +4,8 @@ body { font-family: sans-serif; }
 
 .carousel {
   background: #EEE;
+  margin-right: 100px; 
+  margin-left: 100px;
 }
 
 .carousel img {
@@ -14,5 +16,9 @@ body { font-family: sans-serif; }
 @media screen and ( min-width: 768px ) {
   .carousel img {
     height: 400px;
+  }
+  .carousel {
+    margin-right: 0px; 
+    margin-left: 0px;
   }
 }
