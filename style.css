@@ -20,10 +20,6 @@ body {
 
 body { font-family: sans-serif; }
 
-.carousel {
-  background: #EEE;
-}
-
 .carousel img {
   display: block;
   height: 200px;
