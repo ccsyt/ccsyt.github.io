@@ -1,13 +1,19 @@
 body {
     color: black;
     background: white;
+    .carousel {
+  background: #EEE;
 }
 @media (prefers-color-scheme: dark) {
     body {
         color: white;
         background: black;
-        .title: white;
-    }
+   .h1 {
+      color: black;
+}
+   .carousel {
+  background: #363636;
+}
 }
 
 * { box-sizing: border-box; }
