@@ -1,24 +1,10 @@
-body {
-    color: black;
-    background: white;
-    .carousel {
-  background: #EEE;
-}
-@media (prefers-color-scheme: dark) {
-    body {
-        color: white;
-        background: black;
-   .h1 {
-      color: white;
-}
-   .carousel {
-  background: #363636;
-}
-}
-
 * { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
 
 .carousel img {
   display: block;
