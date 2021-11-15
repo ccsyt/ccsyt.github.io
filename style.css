@@ -9,11 +9,16 @@ body {
   background: #EEE;
   margin-right: 0px; 
   margin-left: 0px;
+  border-radius: 25px;
 }
 
 .carousel img {
   display: block;
   height: 200px;
+}
+.margin-fix {
+  margin-right: 0px; 
+  margin-left: 0px;
 }
 
 @media screen and ( min-width: 768px ) {
@@ -21,6 +26,10 @@ body {
     height: 400px;
   }
   .carousel {
+    margin-right: 100px; 
+    margin-left: 100px;
+  }
+  .margin-fix {
     margin-right: 100px; 
     margin-left: 100px;
   }
