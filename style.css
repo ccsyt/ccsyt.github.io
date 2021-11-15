@@ -35,5 +35,6 @@ body {
   .margin-fix {
     margin-right: 100px; 
     margin-left: 100px;
+    border-radius: 25px;
   }
 }
