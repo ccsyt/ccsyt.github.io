@@ -9,7 +9,7 @@ body {
   background: #EEE;
   margin-right: 0px; 
   margin-left: 0px;
-  border-radius: 25px;
+  border-radius: 0px;
 }
 
 .carousel img {
@@ -19,15 +19,18 @@ body {
 .margin-fix {
   margin-right: 0px; 
   margin-left: 0px;
+  border-radius: 0px;
 }
 
 @media screen and ( min-width: 768px ) {
   .carousel img {
     height: 400px;
+    border-radius: 25px;
   }
   .carousel {
     margin-right: 100px; 
     margin-left: 100px;
+    border-radius: 25px;
   }
   .margin-fix {
     margin-right: 100px; 
